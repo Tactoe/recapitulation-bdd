@@ -1,9 +1,9 @@
 import assert from "assert";
 
-describe("recapitulation-bdd", function () {
+describe("recap-bdd", function () {
   it("package.json has correct name", async function () {
     const { name } = await import("../package.json");
-    assert.strictEqual(name, "recapitulation-bdd");
+    assert.strictEqual(name, "recap-bdd");
   });
 
   if (Meteor.isClient) {
